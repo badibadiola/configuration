@@ -6,5 +6,5 @@ if [ ! -d "$GIT_DIR/rebase-merge" ]; then
   export PATH="~/.rbenv/shims:$PATH"
   export LOLCOMMITS_DIR=/Users/fousa/Dropbox/Lolcommits
   
-  lolcommits --capture --animate=4 --delay=5 --device='FaceTime HD Camera' >/dev/null 2>&1 &
+  lolcommits --capture --animate=4 --delay=5 >/dev/null 2>&1 &
 fi

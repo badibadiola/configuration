@@ -9,7 +9,9 @@ My macOS configuration.
 * [RBENV](https://github.com/rbenv/rbenv)
 * VIM
 * Dropbox (for lolcommits)
-* lolcommits
+* imagemagick (for lolcommits)
+* ffmpeg (for lolcommits)
+* [lolcommits](https://github.com/mroth/lolcommits)
 
 ## Installation
 

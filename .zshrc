@@ -27,6 +27,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias gt='gittower'
 alias br='bundle exec rake'
 alias be='bundle exec'
+alias bef='bundle exec fastlane'
 alias pi='pod install'
 
 ### Git

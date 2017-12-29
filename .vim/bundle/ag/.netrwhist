@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/fousa/Projects/track/fastlane/macos/metadata'
+let g:netrw_dirhist_2='/Users/fousa/Projects/track/fastlane/macos/metadata/zh-Hans'
+let g:netrw_dirhist_3='/Users/fousa/Projects/skysight'
+let g:netrw_dirhist_4='/Users/fousa/Documents/Projects/Personal/Track/Privacy Policy'
+let g:netrw_dirhist_5='/Users/fousa/Documents/Projects/Personal/Track/Privacy Policy/Fousa_files'
+let g:netrw_dirhist_6='/Users/fousa/Documents/Projects/Personal/Track/Privacy Policy'

@@ -11,3 +11,6 @@ ln -s $PWD/.git_template ~/.git_template
 
 echo "🚀  Linking the .gitconfig to your configuration."
 ln -s $PWD/.gitconfig ~/.gitconfig
+
+echo "🚀  Linking the .vim to your configuration."
+ln -s $PWD/.vim ~/.vim

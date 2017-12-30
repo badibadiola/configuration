@@ -75,10 +75,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 nnoremap <leader>p :CtrlP<CR>
 nnoremap <leader>b :CtrlPBuffer<CR>
 
-" Ag plugin
-set runtimepath^=~/.vim/bundle/ag
-nnoremap <leader>s :Ag<CR>
-
 " FZF
 set runtimepath^=~/.fzf
 nnoremap <leader>f :FZF<CR>

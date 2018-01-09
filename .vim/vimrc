@@ -19,7 +19,8 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
 " Make sure the clipboard works with iTerm.
-set clipboard+=unnamed
+set clipboard=unnamed
+set mouse=v
 
 " Set the leader.
 let mapleader=";"

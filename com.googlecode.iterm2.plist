@@ -12,6 +12,8 @@
 	<string>manual</string>
 	<key>CheckTestRelease</key>
 	<true/>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Solarized Dark</key>

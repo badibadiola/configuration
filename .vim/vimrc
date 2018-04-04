@@ -15,11 +15,14 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Close vim when only NERDTree is open.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Go to previous (last accessed) window.
+autocmd VimEnter * wincmd p
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
 " Make sure the clipboard works with iTerm.
-set clipboard+=unnamed
+set clipboard=unnamed
+set mouse=v
 
 " Set the leader.
 let mapleader=";"

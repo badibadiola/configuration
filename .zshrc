@@ -43,8 +43,7 @@ alias gs='git shortlog -s -n --all'
 export PATH="/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin"
 
 ### Postgres.app
-export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/10/bin:$PATH"
 
 ### rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"

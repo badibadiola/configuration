@@ -25,10 +25,17 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ### Developer
 alias gt='gittower'
+
+### Bundler
 alias br='bundle exec rake'
 alias be='bundle exec'
 alias bef='bundle exec fastlane'
+
+### Cocoapods
 alias pi='pod install'
+
+### Docker
+alias dc='docker-compose'
 
 ### Git
 alias gffs='git flow feature start'

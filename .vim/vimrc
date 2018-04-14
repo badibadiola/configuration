@@ -9,6 +9,7 @@ execute pathogen#infect()
 " Setup NERDTree.
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
+let NERDTreeShowHidden=1
 autocmd vimenter * NERDTree
 " Show the nerd tree sidebar when no files are selected.
 autocmd StdinReadPre * let s:std_in=1

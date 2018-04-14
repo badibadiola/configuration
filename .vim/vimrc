@@ -23,7 +23,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 
 " Make sure the clipboard works with iTerm.
 set clipboard=unnamed
-set mouse=v
+set mouse=r
 
 " Set the leader.
 let mapleader=";"
@@ -106,5 +106,3 @@ autocmd FileType mail             let b:comment_leader = '> '
 autocmd FileType vim              let b:comment_leader = '" '
 noremap <silent> ;c :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
 noremap <silent> ;u :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
-
-se mouse+=a
